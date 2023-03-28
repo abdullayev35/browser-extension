@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Hex Hunter",
+  "version": "1.0.1",
+  "description": "Hex Hunter is a powerful color-finding tool that allows you to quickly and easily identify colors in hex format on any website. Simply click on any element, and Hex Hunter will display the corresponding hex code, making it easy to create a color palette for your design projects. With Hex Hunter, you can streamline your workflow and create stunning designs in no time!",
+  "icons": {
+    "200": "icons/icon.png"
+  },
+  "author": "abdullayev2822@gmail.com",
+  "permissions": ["activeTab", "<all_urls>"],
+  "browser_action": {
+    "default_popup": "index.html"
+  }
+}
